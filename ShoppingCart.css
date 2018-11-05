@@ -1,0 +1,201 @@
+ .card-img-overlay{
+    position:relative;
+    display: flex;
+    width:131%;}
+    .card{
+        border:none;
+    }
+body { background-color: #b30512; overflow: hidden;}    
+.bg-dark { background: transparent !important;}
+.card-text{     color: #d39e00;
+    font-size: 20px;
+    font-weight: 400;}
+ .product-interactions .button.plus {
+    color: #7fb034;}
+img{    margin-left: 17px;     margin-top: -6px;}
+.product-interactions{
+    width: 100%;
+    margin-left: 10px; }
+.product-interactions .button {
+    padding-left:10px;
+    width: 30%;
+    height: 47px;
+    font-weight: 400;
+    margin-left: 1px;
+    float: left;
+    font-size: 57px;
+    line-height: 0.75em;
+    background:white;
+    border-bottom: 1px dashed rgba(94, 92, 92, 0.4);
+    cursor: pointer;}
+.product-interactions .button.minus {
+        color: blue;}
+.product-interactions .button.del:after {
+        content: "+";
+        position: absolute;
+        color: red;
+        left:65%;
+        transform: rotateZ(45deg);}
+ .product-quantity {
+    color: #7fb034;
+    font-size: 30px;
+    width: 32%;
+    height: 22%;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 60%;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    background: #FDDAC4;
+    transform: rotateZ(10deg);
+    border: #7fb034 1px dashed;
+    font-weight: 500;
+}
+  
+  .row-table{ 
+    list-style: none;
+ height: 300px;
+   width: 300%; 
+    cursor: grab;
+    position: relative;
+   display: flex;
+   flex-wrap: nowrap;
+   margin-left: -35px;
+   margin-top: 50px;
+  } 
+  .column1{
+    position: relative;
+    overflow-y: scroll;
+  }
+.product:hover #b-plus-minus-del {
+    display: block;   
+    background: #FDDAC4;}
+.product #b-plus-minus-del{
+    display: none;}
+.information_card {
+  color: #b30512;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    height: 69px;
+    bottom: 0px;
+    background: #FDDAC4;
+    padding: 5px 9px;
+    display: block;
+    width: 100%;
+    margin-left: -1em;}
+.img_row {width: 100%;
+    margin-top: 1em;}
+.card-body{  
+width: 200px;
+height: 280px;
+float: left;}
+.product-preview{
+padding: 1em;
+height: 280px;
+position: relative;}
+.product-preview{ 
+background: #fff;
+padding: 1em;
+height: 280px;
+position: relative;}
+.price{ margin-left: 53px; display: flex; flex-direction: row;}
+.column1 .product {
+    position: relative;
+    width: 200px;
+    height: 280px;
+    float: left;
+    list-style-type: none; }
+    .bill {
+        margin-left: 22%;
+        font-size: 26px;
+        font-weight: 600;
+        color: #7fb034;
+        width: 62%;
+        margin-top: 20px;  }
+
+.Calcul_total{       width: 47%;
+    border-radius: 3px;
+    background: white;
+    margin-top: 0px;
+    margin-left: 49px;
+}
+
+
+.td {
+    padding: 0.25em 2px;
+    width: 10px;
+}
+.label {
+    text-align: center;
+    font-family: -webkit-body;
+    font-size: 26px;
+    font-weight: 400;
+    color: #7fb034;
+}
+.value{
+width:0px;
+}
+ .big-button {
+    border-radius: 3px;
+    margin-top: 1px;
+    /* position: absolute; */
+    cursor: pointer;
+    padding: 24px 4%;
+    width: 19%;
+    font-size: 1.5em;
+    color: #334715;
+    font-size: 2em;
+    background: #F1D5A5;
+    margin-left: 77px;
+    margin-right: 38px;
+}
+.big-button.go:hover {
+    background: #7fb034;
+}
+header{
+    display: flex;
+    margin-top: 17px;
+ }
+
+ .bag{ 
+     display: flex;
+     flex-direction: row;
+ }
+.navbardetails{
+    margin-left: 20%;
+    display: flex;
+    list-style-type: none;
+    float: right;}
+    /* Style all font awesome icons */
+    .navbardetails fa {
+        margin-top: 26px;
+        margin-right: 20px;
+        font-size: 23px;
+        width: 16px; }
+    /* Add a hover effect if you want */
+    .fa-linkedin:hover, .fa-instagra:hover, .fa-slack:hover, .fa-github:hover,.fa-twitter:hover {opacity: 0.7; cursor: pointer; color:#1ebad0}
+    .fa-linkedin,.fa-instagram,.fa-slack,.fa-github,.fa-twitter  {color: white;  margin-top: 26px;
+      margin-right: 20px;
+      font-size: 23px;
+      width: 16px;}
+/* 
+.column1{
+    display: flex;
+    min-width: 100%;
+    min-height: 200px;
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch; 
+}
+
+/* .column1::-webkit-scrollbar {
+    display: none;
+  }
+   */
+  .product{
+   
+    margin-left: 1px;border-radius: 10%;  border: 1px dashed rgba(94, 92, 92, 0.4)
+  } 
+
+  

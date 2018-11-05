@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="animate.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="ShoppingCart.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="card bg-dark text-white">
+      <div class="card-img-overlay">
+          <img class="animated bounceInLeft" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNtlxWDFaJSNqLPX0gmUnEv3VvF5jAO0T_paSE0KBT3WoY0mVICw">
+
+        <h5 class="animated bounceIn">Our Website Is For You Miss</h5>
+
+      </div>
+    </div>
+
+      <ul class="navbardetails">
+              <li>
+                      <!--Twitter--><a href="https://github.com/NourLahwaya" class="tw-ic mr-3"><i class="fa fa-lg fa-twitter">
+                              </i></a></li>
+              <li>
+                      <!--Linkedin--><a href="  https://www.linkedin.com/in/nour-lahwaya-541b68164/" class="li-ic mr-3"><i
+                                      class="fa fa-lg fa-linkedin"> </i></a></li>
+              <li>
+                      <!--slack--><a class="slack-ic mr-3"><i class="fa fa-lg fa-slack"> </i></a></li>
+              <li>
+                      <!--Github--><a href="https://github.com/NourLahwaya" class="git-ic mr-3"><i class="fa fa-lg fa-github">
+                              </i></a></li>
+      </ul>
+   
+  </header>
+  <main>
+    <div class="row-table" id="rowproduct" >
+      <ul class="column1" id="griditems" >
+        <li class="product" id="product1">
+          <div class="product-preview">
+            <div class="img_row">
+              <img class="image" width="75%" src="https://static.galerieslafayette.com/media/132/13214432/G_13214432_378_VPP_1.jpg">
+              <div class="product-interactions" id="b-plus-minus-del">
+                <div class="animated flipInY">
+                  <div class="button plus" id="plus" onclick="addbutton1()">
+                    +
+                  </div>
+                  <div class="button minus" id="min" onclick="minubutton1()">
+                    -
+                  </div>
+                  <div class="button del" id="del" onclick="deletebutton1()"></div>
+                </div>
+              </div>
+            </div>
+            <div class="information_card">
+              <div class="card-title">
+                Miss Dior
+              </div>
+              <div class="price">
+                <div class="caracterprice">$</div>
+                <div class="valueprice" id="price1">60.50</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-quantity" id="productnumber1">
+           x1
+          </div>
+        </li>
+        <li class="product" id="product2">
+          <div class="product-preview">
+            <div class="img_row">
+              <img class="image" width="82%" src="https://www.marionnaud.fr/medias/Eau-de-Parfum-BP-100521567.jpg?context=bWFzdGVyfGZyb250L2V4dHJhem9vbXw4MTYxNjB8aW1hZ2UvanBlZ3xmcm9udC9leHRyYXpvb20vaDk3L2gyNC85MDcyODI5MDM4NjIyLmpwZ3w1MzcxNWU0MGUzODFkOTg2ZDUzZDVjNTM3ZTM4ZWM5MjZhZTdiNGU2OGFmMTc4MjA2MjVhMWYwZDZlMzc1NThi">
+              <div class="product-interactions" id="b-plus-minus-del">
+                <div class="animated flipInY">
+                  <div class="button plus" id="plus" onclick="addbutton2()">
+                    +
+                  </div>
+                  <div class="button minus" id="min" onclick="minubutton2()">
+                    -
+                  </div>
+                  <div class="button del" id="del" onclick="deletebutton2()"></div>
+                </div>
+              </div>
+            </div>
+            <div class="information_card">
+              <div class="card-title">
+                Black Opuim 
+              </div>
+              <div class="price">
+                  <div class="caracterprice">$</div>
+                  <div class="valueprice" id="price2">89.90</div>
+                </div>
+            </div>
+          </div>
+          <div class="product-quantity" id="productnumber2">
+           x1
+          </div>
+
+        </li>
+        <li class="product" id="product3">
+          <div class="product-preview">
+            <div class="img_row">
+              <img class="image" width="68%" src="https://static.beaute-test.com/prod/img63598.jpg">
+
+              <div class="product-interactions" id="b-plus-minus-del">
+                <div class="animated flipInY">
+                  <div class="button plus" id="plus" onclick="addbutton3()">
+                    +
+                  </div>
+                  <div class="button minus" id="min" onclick="minubutton3()">
+                    -
+                  </div>
+                  <div class="button del" id="del" onclick="deletebutton3()"></div>
+                </div>
+              </div>
+            </div>
+            <div class="information_card">
+              <div class="card-title">
+                Hypnotic Poison 
+              </div>
+              <div class="price">
+                  <div class="caracterprice">$</div>
+                  <div class="valueprice" id="price3">80.58</div>
+                </div>
+            </div>
+          </div>
+          <div class="product-quantity" id="productnumber3">
+           x1
+          </div>
+
+        </li>
+        <li class="product" id="product4">
+          <div class="product-preview">
+            <div class="img_row">
+              <img class="image" width="82%" src="http://www.pschitt-pschitt.fr/23468-large_default/eau-de-parfum-femme-gold-mine-la-s%C3%A9duction-100-ml-linn-young.jpg">
+
+              <div class="product-interactions" id="b-plus-minus-del">
+                <div class="animated flipInY">
+                  <div class="button plus" id="plus" onclick="addbutton4()">
+                    +
+                  </div>
+                  <div class="button minus" id="min" onclick="minubutton4()">
+                    -
+                  </div>
+                  <div class="button del" id="del" onclick="deletebutton4()"></div>
+                </div>
+              </div>
+            </div>
+            <div class="information_card">
+              <div class="card-title">
+                Linn Young - Gold Mine 
+              </div>
+              <div class="price">
+                  <div class="caracterprice">$</div>
+                  <div class="valueprice" id="price4">45.30</div>
+                </div>
+            </div>
+          </div>
+          <div class="product-quantity" id="productnumber4">
+           x1
+          </div>
+
+        </li>
+        <li class="product" id="product5">
+          <div class="product-preview">
+            <div class="img_row">
+              <img class="image" width="90%" src="https://www.jeancoutu.com/catalogue-images/154197/viewer/0/burberry-my-burberry-black-parfum-pour-femmes-50-ml.png">
+
+              <div class="product-interactions" id="b-plus-minus-del">
+                <div class="animated flipInY">
+                  <div class="button plus" id="plus" onclick="addbutton5()">
+                    +
+                  </div>
+                  <div class="button minus" id="min" onclick="minubutton5()">
+                    -
+                  </div>
+                  <div class="button del" id="del" onclick="deletebutton5()"></div>
+                </div>
+              </div>
+            </div>
+            <div class="information_card">
+              <div class="card-title">
+                My Burberry Black 
+              </div>
+              <div class="price">
+                  <div class="caracterprice">$</div>
+                  <div class="valueprice" id="price5">65.50</div>
+                </div>
+            </div>
+          </div>
+          <div class="product-quantity" id="productnumber5">
+           x1
+          </div>
+
+        </li>
+        <li class="product" id="product6">
+            <div class="product-preview">
+              <div class="img_row">
+                <img class="image" width="82%" src="https://i.ebayimg.com/images/g/Yk4AAOSwdfZbIX5I/s-l300.jpg">
+  
+                <div class="product-interactions" id="b-plus-minus-del">
+                  <div class="animated flipInY">
+                    <div class="button plus" id="plus" onclick="addbutton6()">
+                      +
+                    </div>
+                    <div class="button minus" id="min" onclick="minubutton6()">
+                      -
+                    </div>
+                    <div class="button del" id="del" onclick="deletebutton6()"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="information_card">
+                <div class="card-title">
+                    Dylan Blue By Versace 
+                </div>
+                <div class="price">
+                    <div class="caracterprice">$</div>
+                    <div class="valueprice" id="price6">70.50</div>
+                  </div>
+              </div>
+            </div>
+            <div class="product-quantity" id="productnumber6">
+             x1
+            </div>
+  
+          </li>
+         <li class="product" id="product6">
+            <div class="product-preview">
+              <div class="img_row">
+                <img class="image" width="59%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8tyjhobrwPWd8TpIxOoc3g9zQdmN68g79HmCUSMAZQ8UvwHa_">
+  
+                <div class="product-interactions" id="b-plus-minus-del">
+                  <div class="animated flipInY">
+                    <div class="button plus" id="plus" onclick="addbutton6()">
+                      +
+                    </div>
+                    <div class="button minus" id="min" onclick="minubutton6()">
+                      -
+                    </div>
+                    <div class="button del" id="del" onclick="deletebutton6()"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="information_card">
+                <div class="card-title">
+                 Olympia 
+                </div>
+                <div class="price">
+                    <div class="caracterprice">$</div>
+                    <div class="valueprice" id="price6">70.50</div>
+                  </div>
+              </div>
+            </div>
+            <div class="product-quantity" id="productnumber6">
+             x1
+            </div>
+  
+          </li>
+           <!-- <li class="product" id="product6">
+            <div class="product-preview">
+              <div class="img_row">
+                <img class="image" width="82%" src="https://i.ebayimg.com/images/g/Yk4AAOSwdfZbIX5I/s-l300.jpg">
+  
+                <div class="product-interactions" id="b-plus-minus-del">
+                  <div class="animated flipInY">
+                    <div class="button plus" id="plus" onclick="addbutton6()">
+                      +
+                    </div>
+                    <div class="button minus" id="min" onclick="minubutton6()">
+                      -
+                    </div>
+                    <div class="button del" id="del" onclick="deletebutton6()"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="information_card">
+                <div class="card-title">
+                    Dylan Blue By Versace 
+                </div>
+                <div class="price">
+                    <div class="caracterprice">$</div>
+                    <div class="valueprice" id="price6">70.50</div>
+                  </div>
+              </div>
+            </div>
+            <div class="product-quantity" id="productnumber6">
+             x1
+            </div>
+  
+          </li> -->
+      </ul>
+    </div>
+    <div class="bag">
+    <div class="Calcul_total">
+      <table class="bill">
+          <tbody><tr class="Total">
+            <td class="label">
+                Shopping Bag Total  :
+            </td><td >$</td>
+            <td class="value" id="UPValue">
+              0.00
+            </td>
+          </tr>
+         
+          </tr>
+         
+        </tbody></table>
+      </div>
+
+      <div class="big-button go">
+        Get them !
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  </main>
+  <footer></footer>
+  <script src="ShoppingCart.js"></script>
+</body>
+
+</html>
